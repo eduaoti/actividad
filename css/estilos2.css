@@ -1,0 +1,321 @@
+* {   
+    margin: 0px;   
+    padding: 0px; 
+}
+
+body{
+    background-color: hsl(0, 59%, 39%);
+}
+
+header, section, footer, aside, nav, article, figure, figcaption,hgroup{
+    display:block;
+}
+
+#cabecera{
+    border: 2px solid #ffffff;
+    padding: 10px;
+    background-color:  hsl(0, 59%, 39%);
+    color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: sans-serif;
+    font-size:xx-large;
+    text-align: left;
+}
+
+.menu li{
+    display: inline;
+    list-style: none;
+    position: relative;
+    bottom: -15px;
+    padding: 0px 50px;
+}
+
+.menu a{
+    text-decoration:none;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+/*PANEL DE NAVEGACION*/
+#menu-buscador{
+    border-bottom: 2px solid #000000;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    height: 50px;
+    padding: 0px 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+#caja{
+    position: absolute;
+    right: 150px;
+    width: 300px;
+    height: 30px;
+    background-color: #ededed;
+    top: 3px;
+}
+
+#boton{
+    position: absolute;
+    right: 50px;
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    background-color: #d63939;
+    color: white;
+    font-family: Verdana;
+    font-style: unset;
+    top: 3px;
+}
+
+form{
+    left: 1150px;
+    right: 0;
+    bottom: 0;
+    top: 68px;
+    position: absolute;
+    display: inline-block;
+}
+/************* BORDES *************/
+/*RECETAS CARNE*/
+#recetas-carne{
+    border:3px solid #000000;
+    margin: 20px 5px;
+    font-family:'Lucida Sans'; 
+    font-size: 10.5pt; 
+    background-color: white;
+}    
+
+#recetas-carne h2{
+    width: 260px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: white;
+    font-family: Verdana;
+    font-size: 16pt;
+}
+
+#receta1-carne{
+    border:3px solid #000000;
+    margin: 20px 20px;
+    height: 480px;
+    background-color: #ededed;
+}
+
+#receta1-carne h3{
+    width: 150px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: #ededed;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+#receta2-carne{
+    border:3px solid #000000;
+    margin: 20px 20px;
+    height: 540px;
+    font-family:'Lucida Sans';
+    background-color:#ededed;    
+}
+
+#receta2-carne h3{
+    width: 150px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: #ededed;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+/*RECETAS PESCADO*/
+#recetas-pescado{
+    border:3px solid #000000;
+    margin: 20px 5px;
+    position: relative;
+    font-family:'Lucida Sans'; 
+    font-size: 10.5pt;
+    background-color: white;
+     
+}
+
+#recetas-pescado h2{
+    width: 280px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: white;
+    font-family: Verdana;
+    font-size: 16pt;
+}
+
+#receta1-pescado{
+    border:3px solid #000000;
+    margin: 20px 20px;
+    height: 570px;
+    background-color: #ededed;
+}
+
+#receta1-pescado h3{
+    width: 240px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: #ededed;
+    display: inline-block;
+    font-family: Verdana;
+    font-size: medium;
+}
+
+/*TODAS LAS SECCIONES*/ 
+section{
+    float: left;
+    width: 900px;
+}
+
+
+/*PUBLICIDAD*/
+#lateral{
+    width: 360px;
+    height: 1780px;
+    border:3px solid #000000;
+    margin: 20px 5px;
+    position: absolute;
+    top: 113px;
+    left: 920px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    background-color: white;
+}
+
+
+#lateral p{
+    width: 100px;
+    text-align: center;
+    margin-top:-12px;
+    margin-left:7px;
+    background: white;
+    font-family: Verdana;
+    font-size: medium;
+    font-weight: bold;
+}
+
+#publicidad1{
+    border:3px solid #000000;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ededed;
+}
+
+#publicidad2{
+    border:3px solid #000000;
+    margin: 20px 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #ededed;
+}
+
+
+/*MIS DATOS*/
+#pie{
+    clear: both;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+/*RECETA 1 CARNE ESTILOS*/
+#receta1-carne div{
+    padding: 20px;
+}
+
+#elaboracion1{
+    width: 400px;
+    position:absolute;
+    left: 400px;
+    top: 480px;
+    text-align: justify;
+}
+
+#elaboracion1 p{
+    margin-top: 13px;
+}
+
+
+/*RECETA 2 CARNE ESTILOS*/
+#receta2-carne div{
+    padding: 20px;
+}
+
+#elaboracion2{
+    width: 400px;
+    position:absolute;
+    left: 400px;
+    top: 926px;
+    text-align: justify;
+}
+
+#elaboracion2 ol{
+    padding: 5px 20px;
+}
+
+#elaboracion2 p{
+    margin-top: 13px;
+}
+
+
+
+/*RECETA 1 PESCADO ESTILOS*/
+#receta1-pescado div{
+    padding: 20px;
+}
+
+#elaboracion3{
+    width: 400px;
+    position:absolute;
+    left: 400px;
+    top: 317px;
+    text-align: justify;
+}
+
+#elaboracion3 p{
+    margin-top: 13px;
+}
+
+/*LISTAS DE INGREDIENTES*/
+section ul{
+    padding: 5px;
+    list-style: none;
+    border: 2px solid black;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+/*FORMATO IMAGENES*/
+img{
+    border: 1px solid black;
+    margin: 15px 0px 0px;
+    width: 400px;
+}
+
+#lateral img{
+    position: relative;
+    margin: 15px 0px 0px;
+    width: 270px;
+}
+
+
+
+
+
